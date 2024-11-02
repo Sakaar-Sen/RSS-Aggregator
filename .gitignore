@@ -1,3 +1,4 @@
+.gitignore
 rssagg.exe
 .env
 vendor/
