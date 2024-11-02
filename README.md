@@ -31,22 +31,22 @@ A backend server built in Go that fetches, parses, and aggregates data from RSS 
    ```
    git clone https://github.com/Sakaar-Sen/RSS-Aggregator
    ```
-2. **Install Go dependencies**:
-  ```
- go mod tidy
-```
-3. **Set Up PostgreSQL**:
-- Create a PostgreSQL database.
-- Update the database connection settings a .env file with key `DB_URL`.
+3. **Install Go dependencies**:
+    ```
+   go mod tidy
+    ```
+5. **Set Up PostgreSQL**:
+   - Create a PostgreSQL database.
+   - Update the database connection settings a .env file with key `DB_URL`.
 
-4. **Run Database Migrations**:
+6. **Run Database Migrations**:
    ```
    goose up
    ```
-5. Run the Server:
- ```
-    go build && ./rssagg
- ```
+7. Run the Server:
+   ```
+   go build && ./rssagg
+   ```
    
    
 
